@@ -4,7 +4,7 @@ clear
 
 # Define the output directory, appending a timestamp to ensure uniqueness
 # This helps prevent overwriting previous outputs and aids in tracking runs
-WANDB_PROJECT_NAME="pix2pix_turbo_shiq_lr4e4_modifiedlora_msl1_perceptual_conv2d_rank16_8"
+WANDB_PROJECT_NAME="shiq_lr4e4_problora_msl1_perceptual"
 # OUTPUT_DIR="outputs_pix2pix/$WANDB_PROJECT_NAME$(date +'%Y-%m-%d_%H-%M-%S')"
 OUTPUT_DIR="outputs_pix2pix/$WANDB_PROJECT_NAME"
 mkdir -p "$OUTPUT_DIR"  # Create the output directory if it does not already exist
